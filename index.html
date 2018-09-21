@@ -1,0 +1,35 @@
+<!-- Criar uma programação em js que guarde 10 valores digitados pelo usuário 
+e identifique o maior valores-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>comparacao valores</title>		
+	</head>
+	<body>
+		<p id="demo"></p>
+		<script>
+			var v = [];
+			v[0] = prompt ("Digite um número: ");
+			v[1] = prompt ("Digite um número: ");
+			v[2] = prompt ("Digite um número: ");
+			v[3] = prompt ("Digite um número: ");
+			v[4] = prompt ("Digite um número: ");
+			v[5] = prompt ("Digite um número: ");
+			v[6] = prompt ("Digite um número: ");
+			v[7] = prompt ("Digite um número: ");
+			v[8] = prompt ("Digite um número: ");
+			v[9] = prompt ("Digite um número: ");
+			
+			var maior = v[0];
+			
+			for (var i = 0; i < v.length; i++){
+				if (v[i] > maior) {
+					maior = v[i];
+				} 
+			}
+			document.write(maior);
+		</script>
+		<!-- -->
+	</body>
+</html>
